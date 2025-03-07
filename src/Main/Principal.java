@@ -12,6 +12,11 @@ public class Principal {
 
 		// Declarar las variables
 		Scanner lectura = null;
+		
+		System.out.println("Estoy modificando mi proyecto");
+		int numero1=100;
+		int resultado = numero1*20;
+		System.out.println(resultado);
 
 		String marca;
 		String modelo;
