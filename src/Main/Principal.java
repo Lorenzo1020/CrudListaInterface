@@ -12,11 +12,8 @@ public class Principal {
 
 		// Declarar las variables
 		Scanner lectura = null;
-		
-		System.out.println("Estoy modificando mi proyecto");
-		int numero1=100;
-		int resultado = numero1*20;
-		System.out.println(resultado);
+
+		System.out.println("Se elimina 3 lineas de codigo");
 
 		String marca;
 		String modelo;
@@ -38,10 +35,10 @@ public class Principal {
 			System.out.println("6---BUSCAR POR MODELO");
 			System.out.println("7---BUSCAR POR MARCA");
 			System.out.println("8---CALCULAR DINERO INVERTIDO");
-			System.out.println("9---EDITAR BUSCANDO POR MODELO");//EDITAR EL STOCK
+			System.out.println("9---EDITAR BUSCANDO POR MODELO");// EDITAR EL STOCK
 			System.out.println("10---ELIMINAR BUSCANDO POR MODELO");
 			System.out.println("11---SALIR");
-			
+
 			lectura = new Scanner(System.in);
 			menuPrinc = lectura.nextInt();
 
@@ -163,7 +160,7 @@ public class Principal {
 				}
 				break;
 			case 6:
-	
+
 				break;
 			case 7:
 				break;
